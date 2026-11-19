@@ -2,16 +2,16 @@
 
   <p>｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ ──────────── ꒰ 🩺 ꒱ ──────────── ⋆｡ﾟ☾ ﾟ｡⋆｡☁︎｡ﾟ</p>
 
-  <h1>˚₊‧꒰ა 🫧 Python Health Insurance Calculator 🫧 ໒꒱‧₊˚</h1>
+  <h1>˚₊‧꒰ა 🫧 Calculadora de Plano de Saúde em Python 🫧 ໒꒱‧₊˚</h1>
 
   <p>
-    <i>✧･ﾟ: *✧･ﾟ:* Command-line Python application that computes health insurance monthly fees by applying tiered rate multipliers across age brackets *:･ﾟ✧*:･ﾟ✧</i>
+    <i>✧･ﾟ: *✧･ﾟ:* Aplicação em Python via linha de comando que calcula a mensalidade de plano de saúde aplicando multiplicadores escalonados por faixas etárias *:･ﾟ✧*:･ﾟ✧</i>
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.x-FFB7C5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/Logic-Conditional%20Rules-E6E6FA?style=for-the-badge&logoColor=555555" alt="Conditional Logic" />
-    <img src="https://img.shields.io/badge/Console-CLI%20Script-FFD1DC?style=for-the-badge&logoColor=white" alt="CLI Script" />
+    <img src="https://img.shields.io/badge/L%C3%B3gica-Regras%20Condicionais-E6E6FA?style=for-the-badge&logoColor=555555" alt="Regras Condicionais" />
+    <img src="https://img.shields.io/badge/Console-Script%20CLI-FFD1DC?style=for-the-badge&logoColor=white" alt="Script CLI" />
   </p>
 
 </div>
@@ -20,30 +20,30 @@
 
 <p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-### ╰┈➤ ꒰ 🩹 ꒱ Business Rules
+### ╰┈➤ ꒰ 🩹 ꒱ Regras de Negócio
 
-The monthly fee multiplier is determined dynamically according to the client's age bracket:
+O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa etária do cliente:
 
-| 🪷 Age Bracket | 💊 Rate Multiplier |
+| 🪷 Faixa Etária | 💊 Multiplicador |
 | :--- | :---: |
-| `0` to `18` years | `1.0x` *(Base rate)* |
-| `19` to `28` years | `1.5x` |
-| `29` to `38` years | `2.25x` |
-| `39` to `48` years | `2.4x` |
-| `49` to `58` years | `3.5x` |
-| `59` years or older | `6.0x` |
+| `0` a `18` anos | `1.0x` *(Valor base)* |
+| `19` a `28` anos | `1.5x` |
+| `29` a `38` anos | `2.25x` |
+| `39` a `48` anos | `2.4x` |
+| `49` a `58` anos | `3.5x` |
+| `59` anos ou mais | `6.0x` |
 
 <p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-### ╰┈➤ ꒰ 🤍 ꒱ How It Was Built
+### ╰┈➤ ꒰ 🤍 ꒱ Como Foi Construído
 
-* **₊˚🫧 Input Handling & Type Casting:** Captured user base rates and age inputs via CLI (`input`) and parsed them into numeric types (`float` and `int`).
-* **₊˚🩺 Tiered Conditional Logic:** Implemented chained `if / elif / else` decision branches to map each age interval to its respective multiplier.
-* **₊˚🫧 Formatted Output:** Used Python `f-strings` to display the calculated monthly fee cleanly in the terminal.
+- **₊˚🫧 Tratamento de Entradas e Conversão de Tipos:** Captura do valor base e da idade via CLI (`input`) com conversão para tipos numéricos (`float` e `int`).
+- **₊˚🩺 Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
+- **₊˚🫧 Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
 
 <br/>
 
 <div align="center">
   <p>°•. 🫧 .•° ────── ꒰ 💗 ꒱ ────── °•. 🫧 .•°</p>
-  <p><i>made with 💗 by <b>Maria Eduarda Gonçalves</b></i></p>
+  <p><i>feito com 💗 por <b>Maria Eduarda Gonçalves</b></i></p>
 </div>
