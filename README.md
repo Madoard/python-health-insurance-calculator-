@@ -48,8 +48,8 @@ O multiplicador da mensalidade varia conforme a idade informada:
 1. **Pré-requisitos:** Tenha o **Python 3.x** instalado na máquina.
 2. **Clone o repositório:**
   ```bash
-   git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
-   cd NOME-DO-REPOSITORIO
+    git clone https://github.com/Madoard/python-health-insurance-calculator-.git
+    cd python-health-insurance-calculator-
    ```
 3. **Execute o script (`calculadora.py`):**
    ```bash
