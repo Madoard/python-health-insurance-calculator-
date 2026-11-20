@@ -48,12 +48,21 @@ O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa e
 - **₊˚🩺 Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
 - **₊˚🫧 Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+```python
+if idade < 0:
+    print("Idade inválida.")
+else:
+    if idade < 19:
+        valor_mensal = valor_base
+    elif idade < 29:
+        valor_mensal = valor_base * 1.5
+    elif idade < 39:
+        valor_mensal = valor_base * 2.25
+    elif idade < 49:
+        valor_mensal = valor_base * 2.4
+    elif idade < 59:
+        valor_mensal = valor_base * 3.5
+    else:
+        valor_mensal = valor_base * 6
 
-### ╰┈➤ ꒰ 💻 ꒱ Como Executar
-
-1. **Pré-requisitos:** Certifique-se de ter o **Python 3.x** instalado na sua máquina (não há dependências externas para instalar).
-2. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Madoard/calculadora-plano-saude.git
-cd calculadora-plano-saude
+    print(f"O valor mensal do plano é: R$ {valor_mensal:.2f}")
