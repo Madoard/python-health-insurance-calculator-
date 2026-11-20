@@ -2,7 +2,7 @@
 
   <p>─────────────────────── ✦ ───────────────────────</p>
 
-  <h1>Calculadora de Plano de Saúde em Python</h1>
+  <h1>˚₊‧꒰ა ✦ Calculadora de Plano de Saúde em Python ✦ ໒꒱‧₊˚</h1>
 
   <p>
     <i>Aplicação em Python via linha de comando que calcula a mensalidade de plano de saúde aplicando multiplicadores escalonados por faixas etárias.</i>
