@@ -9,6 +9,10 @@
   </p>
 
   <p>
+    Automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, aplicando reajustes escalonados por faixa etária diretamente no terminal.
+  </p>
+
+  <p>
     <img src="https://img.shields.io/badge/Python-3.x-FFB7C5?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/L%C3%B3gica-Regras%20Condicionais-E6E6FA?style=for-the-badge&logoColor=555555" alt="Regras Condicionais" />
     <img src="https://img.shields.io/badge/Console-Script%20CLI-FFD1DC?style=for-the-badge&logoColor=white" alt="Script CLI" />
@@ -48,3 +52,4 @@ O multiplicador da mensalidade varia conforme a idade informada:
    ```bash
    git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
    cd NOME-DO-REPOSITORIO
+   
