@@ -1,6 +1,6 @@
 <div align="center">
 
-  <p>⋆ ──────────── ✦ ──────────── ⋆</p>
+  <p>─────────────────────── ✦ ───────────────────────</p>
 
   <h1>Calculadora de Plano de Saúde em Python</h1>
 
@@ -18,15 +18,15 @@
 
 <br/>
 
-<p align="center">‧₊˚ ─────── ✦ ─────── ˚₊‧</p>
+<p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ Visão Geral & Regras de Negócio
+### ╰┈➤ ✦ Visão Geral & Regras de Negócio
 
 #### Resumo
 Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, resolvendo a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal. O código-fonte completo está disponível em [`calculadora.py`](./calculadora.py).
 
 #### Tecnologias Utilizadas
-- **✦ Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
+- **Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
 
 #### Regras de Negócio
 O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa etária do cliente:
@@ -40,13 +40,13 @@ O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa e
 | `49` a `58` anos | `3.5x` |
 | `59` anos ou mais | `6.0x` |
 
-<p align="center">‧₊˚ ─────── ✦ ─────── ˚₊‧</p>
+<p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ Como Foi Construído
+### ╰┈➤ ✦ Como Foi Construído
 
-- **✦ Tratamento de Entradas e Conversão de Tipos:** Captura do valor base e da idade via CLI (`input`) com conversão para tipos numéricos (`float` e `int`).
-- **✦ Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
-- **✦ Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
+- **Tratamento de Entradas e Conversão de Tipos:** Captura do valor base e da idade via CLI (`input`) com conversão para tipos numéricos (`float` e `int`).
+- **Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
+- **Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
 
 ```python
 if idade < 0:
