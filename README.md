@@ -56,8 +56,6 @@ O multiplicador da mensalidade varia conforme a idade informada:
    python calculadora.py
    ```
 
-<p align="center">─────────────────────── · ───────────────────────</p>
-
 ### ╰┈➤ ✦ Exemplo de Uso
 
 ```text
@@ -105,6 +103,6 @@ else:
 
 <div align="center">
   <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
-  <p><i>Feito por <b>Maria Eduarda Gonçalves</b></i></p>
+  <p><i>Feito por <b>Eduarda Gonçalves</b></i></p>
 </div>
    
