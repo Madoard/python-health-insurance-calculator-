@@ -5,7 +5,7 @@
   <h1>˚₊‧꒰ა ✦ Calculadora de Plano de Saúde em Python ✦ ໒꒱‧₊˚</h1>
 
   <p>
-    <i>Aplicação em Python via linha de comando que calcula a mensalidade de plano de saúde aplicando multiplicadores escalonados por faixas etárias.</i>
+    <i>Calcula a mensalidade de um plano de saúde no terminal aplicando multiplicadores escalonados por faixa etária.</i>
   </p>
 
   <p>
@@ -20,16 +20,15 @@
 
 <p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ ✦ Visão Geral & Regras de Negócio
+### ╰┈➤ ✦ Tecnologias
 
-#### Resumo
-Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, resolvendo a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal. O código-fonte completo está disponível em [`calculadora.py`](./calculadora.py).
+- **Python 3.x:** Linguagem principal para a lógica e interação via linha de comando (sem dependências externas).
 
-#### Tecnologias Utilizadas
-- **Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
+<p align="center">─────────────────────── · ───────────────────────</p>
 
-#### Regras de Negócio
-O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa etária do cliente:
+### ╰┈➤ ✦ Regras
+
+O multiplicador da mensalidade varia conforme a idade informada:
 
 | Faixa Etária | Multiplicador |
 | :--- | :---: |
@@ -42,32 +41,10 @@ O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa e
 
 <p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ ✦ Como Foi Construído
+### ╰┈➤ ✦ Como Executar
 
-- **Tratamento de Entradas e Conversão de Tipos:** Captura do valor base e da idade via CLI (`input`) com conversão para tipos numéricos (`float` e `int`).
-- **Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
-- **Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
-
-```python
-if idade < 0:
-    print("Idade inválida.")
-else:
-    if idade < 19:
-        valor_mensal = valor_base
-    elif idade < 29:
-        valor_mensal = valor_base * 1.5
-    elif idade < 39:
-        valor_mensal = valor_base * 2.25
-    elif idade < 49:
-        valor_mensal = valor_base * 2.4
-    elif idade < 59:
-        valor_mensal = valor_base * 3.5
-    else:
-        valor_mensal = valor_base * 6
-
-    print(f"O valor mensal do plano é: R$ {valor_mensal:.2f}")
-```
-<div align="center">
-  <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
-  <p><i>Feito por <b>Eduarda Gonçalves</b></i></p>
-</div>
+1. **Pré-requisitos:** Tenha o **Python 3.x** instalado na máquina.
+2. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
+   cd NOME-DO-REPOSITORIO
