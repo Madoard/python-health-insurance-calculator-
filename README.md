@@ -20,6 +20,18 @@
 
 <p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
+### ╰┈➤ ꒰ ✨ ꒱ Resumo
+
+Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário. Ele resolve a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal.
+
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+
+### ╰┈➤ ꒰ 🛠️ ꒱ Tecnologias Utilizadas
+
+- **₊˚🫧 Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
+
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
+
 ### ╰┈➤ ꒰ 🩹 ꒱ Regras de Negócio
 
 O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa etária do cliente:
@@ -41,9 +53,12 @@ O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa e
 - **₊˚🩺 Lógica Condicional Escalonada:** Implementação de ramificações `if / elif / else` encadeadas para associar cada intervalo de idade ao seu multiplicador correspondente.
 - **₊˚🫧 Saída Formatada:** Uso de `f-strings` do Python para exibir a mensalidade calculada de forma limpa no terminal.
 
-<br/>
+<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-<div align="center">
-  <p>°•. 🫧 .•° ────── ꒰ 💗 ꒱ ────── °•. 🫧 .•°</p>
-  <p><i>feito com 💗 por <b>Maria Eduarda Gonçalves</b></i></p>
-</div>
+### ╰┈➤ ꒰ 💻 ꒱ Como Executar
+
+1. **Pré-requisitos:** Certifique-se de ter o **Python 3.x** instalado na sua máquina (não há dependências externas para instalar).
+2. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
+   cd NOME-DO-REPOSITORIO
