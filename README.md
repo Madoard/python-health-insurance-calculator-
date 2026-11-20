@@ -24,13 +24,9 @@
 
 Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, aplicando reajustes escalonados por faixa etária diretamente no terminal.
 
-<p align="center">─────────────────────── · ───────────────────────</p>
-
 ### ╰┈➤ ✦ Tecnologias
 
 - **Python 3.x:** Linguagem principal para a lógica e interação via linha de comando (sem dependências externas).
-
-<p align="center">─────────────────────── · ───────────────────────</p>
 
 ### ╰┈➤ ✦ Regras
 
