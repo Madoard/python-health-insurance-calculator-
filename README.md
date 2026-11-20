@@ -47,7 +47,65 @@ O multiplicador da mensalidade varia conforme a idade informada:
 
 1. **Pré-requisitos:** Tenha o **Python 3.x** instalado na máquina.
 2. **Clone o repositório:**
-   ```bash
+  ```bash
    git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
    cd NOME-DO-REPOSITORIO
+   ```
+3. **Execute o script (`calculadora.py`):**
+   ```bash
+   python calculadora.py
+   ```
+
+<p align="center">─────────────────────── · ───────────────────────</p>
+
+### ╰┈➤ ✦ Exemplo de Uso
+
+```text
+Informe o valor base do plano: R$ 200
+Informe a idade do cliente: 25
+O valor mensal do plano é: R$ 300.00
+```
+
+<div align="center">
+  <!-- Opcional: substitua pelo caminho do seu print caso queira exibir uma imagem também -->
+  <!-- <img src="caminho/para/seu-print.png" alt="Execução no Terminal" width="700" /> -->
+</div>
+
+<p align="center">─────────────────────── · ───────────────────────</p>
+
+### ╰┈➤ ✦ Como Foi Construído
+
+O código completo está em [`calculadora.py`](./calculadora.py). Abaixo está a lógica principal e como cada parte funciona:
+
+```python
+if idade < 0:
+    print("Idade inválida.")
+else:
+    if idade < 19:
+        valor_mensal = valor_base
+    elif idade < 29:
+        valor_mensal = valor_base * 1.5
+    elif idade < 39:
+        valor_mensal = valor_base * 2.25
+    elif idade < 49:
+        valor_mensal = valor_base * 2.4
+    elif idade < 59:
+        valor_mensal = valor_base * 3.5
+    else:
+        valor_mensal = valor_base * 6
+
+    print(f"O valor mensal do plano é: R$ {valor_mensal:.2f}")
+```
+
+- **Entradas e conversão de tipos:** Recebe o valor base e a idade pelo terminal com `input()` e converte para `float` e `int`.
+- **Condicionais encadeadas (`if / elif / else`):** Valida se a idade não é negativa e aplica o multiplicador correspondente à faixa etária.
+- **Formatação de saída:** Usa `f-strings` com `:.2f` para mostrar o valor final formatado com duas casas decimais.
+
+<br/>
+
+<div align="center">
+  <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
+  <p><i>Feito por Eduarda Gonçalves</i></p>
+</div>
+   
    
