@@ -20,20 +20,15 @@
 
 <p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
 
-### ╰┈➤ ꒰ ✨ ꒱ Resumo
+### ╰┈➤ ꒰ ✨ ꒱ Visão Geral & Regras de Negócio
 
-Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário. Ele resolve a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal.
+#### Resumo
+Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, resolvendo a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal.
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
-
-### ╰┈➤ ꒰ 🛠️ ꒱ Tecnologias Utilizadas
-
+#### Tecnologias Utilizadas
 - **₊˚🫧 Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
 
-<p align="center">‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾. ─────────────────────── ‧₊˚ ☁️⋅♡𓂃 ࣪ ִֶָ☾.</p>
-
-### ╰┈➤ ꒰ 🩹 ꒱ Regras de Negócio
-
+#### Regras de Negócio
 O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa etária do cliente:
 
 | 🪷 Faixa Etária | 💊 Multiplicador |
