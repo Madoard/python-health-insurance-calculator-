@@ -20,15 +20,15 @@
 
 <p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ ✦ Resumo
+### ✦ Resumo
 
 Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, aplicando reajustes escalonados por faixa etária diretamente no terminal.
 
-### ╰┈➤ ✦ Tecnologias
+### ✦ Tecnologias
 
 - **Python 3.x:** Linguagem principal para a lógica e interação via linha de comando (sem dependências externas).
 
-### ╰┈➤ ✦ Regras
+### ✦ Regras
 
 O multiplicador da mensalidade varia conforme a idade informada:
 
@@ -43,7 +43,7 @@ O multiplicador da mensalidade varia conforme a idade informada:
 
 <p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ ✦ Como Executar
+### ✦ Como Executar
 
 1. **Pré-requisitos:** Tenha o **Python 3.x** instalado na máquina.
 2. **Clone o repositório:**
@@ -56,7 +56,7 @@ O multiplicador da mensalidade varia conforme a idade informada:
    python calculadora.py
    ```
 
-### ╰┈➤ ✦ Exemplo de Uso
+### ✦ Exemplo de Uso
 
 ```text
 Informe o valor base do plano: R$ 200
@@ -71,7 +71,7 @@ O valor mensal do plano é: R$ 300.00
 
 <p align="center">─────────────────────── · ───────────────────────</p>
 
-### ╰┈➤ ✦ Como Foi Construído
+### ✦ Como Foi Construído
 
 O código completo está em [`calculadora.py`](./calculadora.py). Abaixo está a lógica principal e como cada parte funciona:
 
