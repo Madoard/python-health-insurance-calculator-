@@ -105,7 +105,6 @@ else:
 
 <div align="center">
   <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
-  <p><i>Feito por Eduarda Gonçalves</i></p>
+  <p><i>Feito por <b>Maria Eduarda Gonçalves</b></i></p>
 </div>
-   
    
