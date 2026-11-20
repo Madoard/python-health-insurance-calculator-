@@ -55,5 +55,5 @@ O multiplicador da mensalidade é definido dinamicamente de acordo com a faixa e
 1. **Pré-requisitos:** Certifique-se de ter o **Python 3.x** instalado na sua máquina (não há dependências externas para instalar).
 2. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/Madoard/NOME-DO-REPOSITORIO.git](https://github.com/Madoard/NOME-DO-REPOSITORIO.git)
-   cd NOME-DO-REPOSITORIO
+   git clone https://github.com/Madoard/calculadora-plano-saude.git
+cd calculadora-plano-saude
