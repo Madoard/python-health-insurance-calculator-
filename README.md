@@ -47,9 +47,9 @@ O multiplicador da mensalidade varia conforme a idade informada:
 
 1. **Pré-requisitos:** Tenha o **Python 3.x** instalado na máquina.
 2. **Clone o repositório:**
-  ```bash
-    git clone https://github.com/Madoard/python-health-insurance-calculator-.git
-    cd python-health-insurance-calculator-
+   ```bash
+   git clone https://github.com/Madoard/python-health-insurance-calculator-.git
+   cd python-health-insurance-calculator-
    ```
 3. **Execute o script (`calculadora.py`):**
    ```bash
@@ -64,11 +64,6 @@ Informe a idade do cliente: 25
 O valor mensal do plano é: R$ 300.00
 ```
 
-<div align="center">
-  <!-- Opcional: substitua pelo caminho do seu print caso queira exibir uma imagem também -->
-  <!-- <img src="caminho/para/seu-print.png" alt="Execução no Terminal" width="700" /> -->
-</div>
-
 <p align="center">─────────────────────── · ───────────────────────</p>
 
 ### ✦ Como Foi Construído
@@ -76,6 +71,9 @@ O valor mensal do plano é: R$ 300.00
 O código completo está em [`calculadora.py`](./calculadora.py). Abaixo está a lógica principal e como cada parte funciona:
 
 ```python
+valor_base = float(input("Informe o valor base do plano: R$ "))
+idade = int(input("Informe a idade do cliente: "))
+
 if idade < 0:
     print("Idade inválida.")
 else:
@@ -105,4 +103,3 @@ else:
   <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
   <p><i>Feito por <b>Eduarda Gonçalves</b></i></p>
 </div>
-   
