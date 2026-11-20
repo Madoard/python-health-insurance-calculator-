@@ -66,3 +66,8 @@ else:
         valor_mensal = valor_base * 6
 
     print(f"O valor mensal do plano é: R$ {valor_mensal:.2f}")
+```
+<div align="center">
+  <p>°•. ✦ .•° ────── ꒰ ✦ ꒱ ────── °•. ✦ .•°</p>
+  <p><i>Feito por <b>Eduarda Gonçalves</b></i></p>
+</div>
