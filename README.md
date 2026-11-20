@@ -23,7 +23,7 @@
 ### ╰┈➤ ꒰ ✨ ꒱ Visão Geral & Regras de Negócio
 
 #### Resumo
-Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, resolvendo a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal.
+Este projeto automatiza o cálculo de mensalidades de planos de saúde a partir de um valor base e da idade do beneficiário, resolvendo a necessidade de aplicar reajustes escalonados por faixa etária de forma rápida e livre de erros manuais diretamente no terminal. O código-fonte completo está disponível em [`calculadora.py`](./calculadora.py).
 
 #### Tecnologias Utilizadas
 - **₊˚🫧 Python 3.x:** Linguagem principal utilizada para a lógica de negócio e interação via console (sem necessidade de bibliotecas externas).
