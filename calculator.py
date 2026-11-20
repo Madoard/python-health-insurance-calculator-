@@ -1,26 +1,26 @@
-# Display welcome message
-print("Welcome to Maria Eduarda Gonçalves's System!")
+# Exibe mensagem de boas-vindas
+print("Bem-vindo(a) ao Sistema de Maria Eduarda Gonçalves!")
 
-# Get user input for base rate and client's age
-base_rate = float(input("Enter the plan's base rate: $ "))
-age = int(input("Enter the client's age: "))
+# Obtém a entrada do usuário para o valor base e a idade do cliente
+valor_base = float(input("Informe o valor base do plano: R$ "))
+idade = int(input("Informe a idade do cliente: "))
 
-# Validate age and calculate the monthly fee based on age brackets
-if age < 0:
-    print("Invalid age.")
+# Valida a idade e calcula a mensalidade com base nas faixas etárias
+if idade < 0:
+    print("Idade inválida.")
 else:
-    if age < 19:
-        monthly_fee = base_rate
-    elif age < 29:
-        monthly_fee = base_rate * 1.5
-    elif age < 39:
-        monthly_fee = base_rate * 2.25
-    elif age < 49:
-        monthly_fee = base_rate * 2.4
-    elif age < 59:
-        monthly_fee = base_rate * 3.5
+    if idade < 19:
+        valor_mensal = valor_base
+    elif idade < 29:
+        valor_mensal = valor_base * 1.5
+    elif idade < 39:
+        valor_mensal = valor_base * 2.25
+    elif idade < 49:
+        valor_mensal = valor_base * 2.4
+    elif idade < 59:
+        valor_mensal = valor_base * 3.5
     else:
-        monthly_fee = base_rate * 6
+        valor_mensal = valor_base * 6
 
-    # Display the final calculated monthly fee
-    print(f"The monthly plan fee is: $ {monthly_fee:.2f}")
+    # Exibe o valor mensal final calculado
+    print(f"O valor mensal do plano é: R$ {valor_mensal:.2f}")
